@@ -1,0 +1,35 @@
+.table {
+    width: 100%;
+    color: black;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    border-collapse: collapse;
+}
+
+.title {
+    background-color: rgb(52, 52, 52);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.table th, .table td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    width: 33%;
+}
+
+.table tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+.table td:first-child {
+    text-align: left;
+    text-transform: capitalize;
+    padding-left: 85    px;
+}

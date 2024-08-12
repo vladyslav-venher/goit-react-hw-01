@@ -1,0 +1,83 @@
+.card {
+    border: 2px solid black;
+    border-radius: 3%;
+    padding: 20px;
+    width: 370px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.topWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #4a4a4a;
+}
+
+.text {
+    margin: 0;
+    color: dimgray;
+    font-size: 24px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.location {
+    margin-top: 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    margin: 0 auto;
+    width: 100%;
+    /* justify-content: center; */
+    position: absolute;
+    /* left: 0; */
+    /* top: 0; */
+    bottom: 0px;
+    padding: 0;
+  
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    border: 2px solid dimgray;
+    /* border-bottom-left-radius: 6%;
+    border-bottom-right-radius: 6%; */
+    border-right: none;
+    border-bottom: none;
+    padding: 10px;
+    background-color: rgb(192, 192, 192);
+}
+
+.listItem span {
+    color: black;
+    font-weight: 500;
+}
+
+.firstLi {
+    border-left: none;
+}
